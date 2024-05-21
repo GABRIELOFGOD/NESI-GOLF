@@ -131,6 +131,28 @@ body {
   /* width: 300px; */
 }
 
+.gab-str{
+  padding: 10px 100px;
+}
+
+/* ====== ABOUT US ====== */
+.gab-agd{
+  padding: 50px 200px;
+  margin-top: 50px;
+}
+
+@media (max-width: 767px) {
+
+  /* ====== ABOUT US ===== */
+  .gab-agd{
+    padding: 10px 20px;
+  }
+
+  .gab-str{
+    padding: 0px 10px;
+  }
+}
+
 /* ========================= GAB STYLE ENDS ====================== */
 
 iframe {
