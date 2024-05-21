@@ -141,6 +141,27 @@ body {
   margin-top: 50px;
 }
 
+.gab-com{
+  height: 600px;
+}
+
+.gab-gal{
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 20px 150px;
+  justify-content: space-between;
+}
+
+.gab-gal img{
+  width: 280px;
+}
+
+.gab-com img{
+  height: 100%;
+  width: fit-content;
+}
+
 @media (max-width: 767px) {
 
   /* ====== ABOUT US ===== */
@@ -150,6 +171,10 @@ body {
 
   .gab-str{
     padding: 0px 10px;
+  }
+
+  .gab-gal{
+    padding: 20px 50px;
   }
 }
 
