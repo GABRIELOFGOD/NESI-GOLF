@@ -147,10 +147,10 @@ body {
 
 .gab-gal{
   display: flex;
-  gap: 10px;
+  gap: 20px;
   flex-wrap: wrap;
-  padding: 20px 150px;
-  justify-content: space-between;
+  padding: 20px 50px;
+  justify-content: center;
 }
 
 .gab-gal img{
